@@ -74,7 +74,7 @@ The project was developed in phases:
 - Output `0` = Player 1 (blue), output `1` = Player 2 (red).
 - Ensures players roll one after another.
 
-![Dice and Player Selector Module](Docs/images/Dice_and_Player_Selector_Module_Schematic.png)
+![Dice and Player Selector Module](Docs/Dice_and_Player_Selector_Module_Schematic.png)
 *Dice and Player Selector module schematic*
 
 ### 3. Memory Module (Phase D)
@@ -87,14 +87,14 @@ The project was developed in phases:
 - The master-reset (MR) pin of the registers is normally tied to ground.
 - An **SPDT switch** disconnects MR from ground and connects it to power, which clears all stored positions and resets the game.
 
-![Memory and Reset Module](Docs/images/Memory_and_Reset_Module_Schematic.png)
+![Memory and Reset Module](Docs/Memory_and_Reset_Module_Schematic.png)
 *Memory and Reset module schematic*
 
 ### 5. Winner Indicator Module (Phase D)
 - The player LEDs at position 15 feed an **XOR gate**.
 - When exactly one player reaches 15, the XOR output goes high, driving a **BC547 transistor** that sounds the **buzzer**, while that player's LED shows who won.
 
-![Winning Module](Docs/images/Winning_Module_Schematic.png)
+![Winning Module](Docs/Winning_Module_Schematic.png)
 *Winning module schematic*
 
 ### 6. Board, Snake, Ladder and Player Position Modules (earlier phases)
@@ -103,11 +103,11 @@ The project was developed in phases:
 
 | Board module | Player position module |
 |:------------:|:----------------------:|
-| ![Board Module](Docs/images/Board_Module_Schematic.png) | ![Player Position Module](Docs/images/Player_Position_Module_Schematic.png) |
+| ![Board Module](Docs/Board_Module_Schematic.png) | ![Player Position Module](Docs/Player_Position_Module_Schematic.png) |
 
 | Snake module | Ladder module |
 |:------------:|:-------------:|
-| ![Snake Module](Docs/images/Snake_Module_Schematic.png) | ![Ladder Module](Docs/images/Ladder_Module_Schematic.png) |
+| ![Snake Module](Docs/Snake_Module_Schematic.png) | ![Ladder Module](Docs/Ladder_Module_Schematic.png) |
 
 ### 7. Complete Integration (Phase E)
 - **Adder (7483):** adds the dice value to the player's stored position.
@@ -153,15 +153,14 @@ Digital-Snake-Ladder-Game/
 │   └── Winning_Module.pdsprj
 └── Docs/
     ├── Trailblazers_Phase_C_D_E_EEE4308.pdf    # Project report
-    └── images/                                 # Schematic screenshots used in this README
-        ├── Final_Project_Schematic.png
-        ├── Board_Module_Schematic.png
-        ├── Snake_Module_Schematic.png
-        ├── Ladder_Module_Schematic.png
-        ├── Player_Position_Module_Schematic.png
-        ├── Dice_and_Player_Selector_Module_Schematic.png
-        ├── Memory_and_Reset_Module_Schematic.png
-        └── Winning_Module_Schematic.png
+    ├── Final_Project_Schematic.png             # Schematic screenshots used in this README
+    ├── Board_Module_Schematic.png
+    ├── Snake_Module_Schematic.png
+    ├── Ladder_Module_Schematic.png
+    ├── Player_Position_Module_Schematic.png
+    ├── Dice_and_Player_Selector_Module_Schematic.png
+    ├── Memory_and_Reset_Module_Schematic.png
+    └── Winning_Module_Schematic.png
 ```
 
 ---
@@ -189,7 +188,7 @@ Digital-Snake-Ladder-Game/
 
 ## 🖼️ Complete Integrated Circuit
 
-![Complete Integrated Circuit](Docs/images/Final_Project_Schematic.png)
+![Complete Integrated Circuit](Docs/Final_Project_Schematic.png)
 *Final integrated schematic of the Digital Snake Ladder Game*
 
 ---

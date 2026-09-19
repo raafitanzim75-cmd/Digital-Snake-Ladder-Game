@@ -187,17 +187,17 @@ Digital-Snake-Ladder-Game/
 | Member | Contribution |
 |--------|--------------|
 | Md. Abid Sarwar Khan | Dice module |
-| Md. Tanzim Ashfaq | Player Position module; Snake Module; multiplexer circuit to keep the two players' circuits from operating at the same time |
-| Nowrin Islam Nishat | Winning module; adder circuit (dice value + stored position);documentation |
-| Rafjanul Alam Rafi | Reset Module; Board Module  |
-| Munim Shahrier | Memory Module; Ladder Module; High-frequency clock with 555 timer |
-| Umme Suraia Jannati | Player Selector module; documentation |
+| Md. Tanzim Ashfaq | Player selector module; multiplexer circuit to keep the two players' circuits from operating at the same time |
+| Nowrin Islam Nishat | Winner module; adder circuit (dice value + stored position) |
+| Rafjanul Alam Rafi | High-frequency clock with 555 timer; documentation |
+| Munim Shahrier | Memory module |
+| Umme Suraia Jannati | Reset module; documentation |
 
 ---
 
 ## 📄 Project Report
 
-The full report covering Phases C, D and E is in [`Docs/Trailblazers_Phase_(C_D_E)_EEE4308.pdf`](Docs/Trailblazers_Phase_(C_D_E)_EEE4308.pdf).
+The full report covering Phases C, D and E is in [`Docs/Trailblazers_Phase_C_D_E_EEE4308.pdf`](Docs/Trailblazers_Phase_C_D_E_EEE4308.pdf).
 
 ---
 

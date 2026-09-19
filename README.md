@@ -197,7 +197,7 @@ Digital-Snake-Ladder-Game/
 
 ## 📄 Project Report
 
-The full report covering Phases C, D and E is in [`Docs/Trailblazers_Phase_C_D_E_EEE4308.pdf`](Docs/Trailblazers_Phase_C_D_E_EEE4308.pdf).
+The full report covering Phases C, D and E is in [`Docs/Trailblazers_ Phase_(C,D,E)_4308.pdf`](Docs/Trailblazers_%20Phase_%28C%2CD%2CE%29_4308.pdf).
 
 ---
 

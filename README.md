@@ -2,8 +2,8 @@
 
 A two-player **Snake & Ladder game built entirely from digital logic ICs** and simulated in **Proteus**. There is no microcontroller and no code: dice rolling, turn selection, position memory, snake/ladder logic and winner detection are all done with counters, multiplexers, adders, flip-flops and registers.
 
-> **Course:** EEE 4308 – Digital Electronics Lab
-> **Department:** Electrical and Electronic Engineering, Islamic University of Technology (IUT)
+> **Course:** EEE 4308 – Digital Electronics Lab<br>
+> **Department:** Electrical and Electronic Engineering, Islamic University of Technology (IUT)<br>
 > **Group:** Trailblazers
 
 ---
@@ -47,17 +47,6 @@ The project was developed in phases:
 5. The first player to reach position **15** wins.
 6. A **reset switch** clears both players' positions and restarts the game.
 
-**Snakes and ladders on the board**
-
-<!-- Fill in from your Snake and Ladder module files, then delete this comment. -->
-
-| Type | From | To |
-|------|------|----|
-| Snake | _ | _ |
-| Snake | _ | _ |
-| Ladder | _ | _ |
-| Ladder | _ | _ |
-
 ---
 
 ## 🔧 Modules and Schematics
@@ -98,8 +87,6 @@ The project was developed in phases:
 *Winning module schematic*
 
 ### 6. Board, Snake, Ladder and Player Position Modules (earlier phases)
-
-<!-- Add a short description of each of these modules here if you wish. -->
 
 | Board module | Player position module |
 |:------------:|:----------------------:|
@@ -222,4 +209,4 @@ Developed as part of **EEE 4308: Digital Electronics Lab** at the Department of 
 
 ## 📜 License
 
-This repository is shared for educational reference. Add a license of your choice (for example MIT) if you want others to reuse the work.
+This repository is shared for educational reference only.

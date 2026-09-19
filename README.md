@@ -189,8 +189,8 @@ Digital-Snake-Ladder-Game/
 | Md. Abid Sarwar Khan | Dice module |
 | Md. Tanzim Ashfaq | Player Position module; Snake Module; multiplexer circuit to keep the two players' circuits from operating at the same time |
 | Nowrin Islam Nishat | Winning module; adder circuit (dice value + stored position);documentation |
-| Rafjanul Alam Rafi | High-frequency clock with 555 timer; Board Module  |
-| Munim Shahrier | Memory & Reset module; Ladder Module |
+| Rafjanul Alam Rafi | Reset Module; Board Module  |
+| Munim Shahrier | Memory Module; Ladder Module; High-frequency clock with 555 timer |
 | Umme Suraia Jannati | Player Selector module; documentation |
 
 ---
